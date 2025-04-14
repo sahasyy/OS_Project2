@@ -1,0 +1,651 @@
+Teller 0: ready to serve
+Teller 1: ready to serve
+Teller 2: ready to serve
+Customer 3: enters the bank
+Customer 43: enters the bank
+Customer 3 [Teller 0]: selects teller
+Customer 43 [Teller 1]: selects teller
+Teller 0: calls Customer 3
+Teller 1: calls Customer 43
+Customer 3: introduces self to Teller
+Customer 43: introduces self to Teller
+Customer 3: tells teller to Deposit
+Teller 0 [Customer 3]: receives Deposit
+Teller 0: going to safe for Customer 3
+Teller 0: using safe
+Customer 43: tells teller to Withdraw
+Teller 1 [Customer 43]: receives Withdraw
+Teller 1: going to manager for Customer 43
+Teller 1: interacting with manager
+Teller 0: done with safe
+Teller 0 [Customer 3]: transaction complete
+Customer 3: transaction complete, leaving
+Teller 1: done with manager
+Teller 1: going to safe for Customer 43
+Teller 1: using safe
+Customer 20: enters the bank
+Customer 20 [Teller 2]: selects teller
+Teller 2: calls Customer 20
+Customer 20: introduces self to Teller
+Customer 20: tells teller to Deposit
+Teller 2 [Customer 20]: receives Deposit
+Teller 2: going to safe for Customer 20
+Teller 2: using safe
+Teller 2: done with safe
+Teller 2 [Customer 20]: transaction complete
+Customer 20: transaction complete, leaving
+Customer 28: enters the bank
+Customer 28 [Teller 2]: selects teller
+Teller 0: calls Customer 28
+Customer 28: introduces self to Teller
+Customer 28: tells teller to Deposit
+Teller 0 [Customer 28]: receives Deposit
+Teller 0: going to safe for Customer 28
+Teller 0: using safe
+Teller 0: done with safe
+Teller 0 [Customer 28]: transaction complete
+Customer 28: transaction complete, leaving
+Customer 42: enters the bank
+Customer 42 [Teller 2]: selects teller
+Teller 1: done with safe
+Teller 1 [Customer 43]: transaction complete
+Customer 43: transaction complete, leaving
+Customer 39: enters the bank
+Customer 39 [Teller 0]: selects teller
+Teller 1: calls Customer 42
+Customer 42: introduces self to Teller
+Customer 42: tells teller to Deposit
+Teller 1 [Customer 42]: receives Deposit
+Teller 1: going to safe for Customer 42
+Teller 1: using safe
+Teller 2: calls Customer 39
+Customer 39: introduces self to Teller
+Customer 39: tells teller to Withdraw
+Teller 2 [Customer 39]: receives Withdraw
+Teller 2: going to manager for Customer 39
+Teller 2: interacting with manager
+Teller 2: done with manager
+Teller 2: going to safe for Customer 39
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 42]: transaction complete
+Customer 42: transaction complete, leaving
+Customer 13: enters the bank
+Customer 13 [Teller 0]: selects teller
+Teller 0: calls Customer 13
+Customer 13: introduces self to Teller
+Customer 13: tells teller to Withdraw
+Teller 0 [Customer 13]: receives Withdraw
+Teller 0: going to manager for Customer 13
+Teller 0: interacting with manager
+Teller 2: done with safe
+Teller 2 [Customer 39]: transaction complete
+Customer 39: transaction complete, leaving
+Customer 38: enters the bank
+Customer 38 [Teller 2]: selects teller
+Teller 1: calls Customer 38
+Customer 38: introduces self to Teller
+Customer 38: tells teller to Withdraw
+Teller 1 [Customer 38]: receives Withdraw
+Teller 1: going to manager for Customer 38
+Teller 0: done with manager
+Teller 0: going to safe for Customer 13
+Teller 0: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 38
+Teller 1: using safe
+Teller 0: done with safe
+Teller 0 [Customer 13]: transaction complete
+Customer 13: transaction complete, leaving
+Customer 7: enters the bank
+Customer 7 [Teller 2]: selects teller
+Teller 0: calls Customer 7
+Customer 7: introduces self to Teller
+Customer 7: tells teller to Deposit
+Teller 0 [Customer 7]: receives Deposit
+Teller 0: going to safe for Customer 7
+Teller 0: using safe
+Teller 1: done with safe
+Teller 1 [Customer 38]: transaction complete
+Customer 38: transaction complete, leaving
+Customer 12: enters the bank
+Customer 12 [Teller 2]: selects teller
+Teller 0: done with safe
+Teller 0 [Customer 7]: transaction complete
+Customer 7: transaction complete, leaving
+Teller 0: calls Customer 12
+Customer 12: introduces self to Teller
+Customer 1: enters the bank
+Customer 12: tells teller to Withdraw
+Customer 1 [Teller 0]: selects teller
+Teller 0 [Customer 12]: receives Withdraw
+Teller 0: going to manager for Customer 12
+Teller 0: interacting with manager
+Teller 2: calls Customer 1
+Customer 1: introduces self to Teller
+Customer 1: tells teller to Deposit
+Teller 2 [Customer 1]: receives Deposit
+Teller 2: going to safe for Customer 1
+Teller 2: using safe
+Teller 0: done with manager
+Teller 0: going to safe for Customer 12
+Teller 0: using safe
+Teller 0: done with safe
+Teller 0 [Customer 12]: transaction complete
+Customer 12: transaction complete, leaving
+Customer 24: enters the bank
+Customer 24 [Teller 0]: selects teller
+Teller 1: calls Customer 24
+Customer 24: introduces self to Teller
+Customer 24: tells teller to Withdraw
+Teller 1 [Customer 24]: receives Withdraw
+Teller 1: going to manager for Customer 24
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 24
+Teller 1: using safe
+Teller 2: done with safe
+Teller 2 [Customer 1]: transaction complete
+Customer 1: transaction complete, leaving
+Customer 30: enters the bank
+Customer 30 [Teller 0]: selects teller
+Teller 0: calls Customer 30
+Customer 30: introduces self to Teller
+Customer 30: tells teller to Withdraw
+Teller 0 [Customer 30]: receives Withdraw
+Teller 0: going to manager for Customer 30
+Teller 0: interacting with manager
+Teller 1: done with safe
+Teller 1 [Customer 24]: transaction complete
+Customer 24: transaction complete, leaving
+Teller 0: done with manager
+Teller 0: going to safe for Customer 30
+Teller 0: using safe
+Customer 16: enters the bank
+Customer 16 [Teller 0]: selects teller
+Teller 1: calls Customer 16
+Customer 16: introduces self to Teller
+Customer 16: tells teller to Deposit
+Teller 1 [Customer 16]: receives Deposit
+Teller 1: going to safe for Customer 16
+Teller 1: using safe
+Teller 1: done with safe
+Teller 1 [Customer 16]: transaction complete
+Customer 16: transaction complete, leaving
+Customer 35: enters the bank
+Customer 35 [Teller 1]: selects teller
+Teller 2: calls Customer 35
+Customer 35: introduces self to Teller
+Customer 35: tells teller to Withdraw
+Teller 2 [Customer 35]: receives Withdraw
+Teller 2: going to manager for Customer 35
+Teller 2: interacting with manager
+Teller 0: done with safe
+Teller 0 [Customer 30]: transaction complete
+Customer 30: transaction complete, leaving
+Customer 48: enters the bank
+Customer 48 [Teller 1]: selects teller
+Teller 1: calls Customer 48
+Customer 48: introduces self to Teller
+Customer 48: tells teller to Deposit
+Teller 1 [Customer 48]: receives Deposit
+Teller 1: going to safe for Customer 48
+Teller 1: using safe
+Teller 2: done with manager
+Teller 2: going to safe for Customer 35
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 48]: transaction complete
+Customer 48: transaction complete, leaving
+Customer 10: enters the bank
+Customer 10 [Teller 2]: selects teller
+Teller 0: calls Customer 10
+Customer 10: introduces self to Teller
+Customer 10: tells teller to Withdraw
+Teller 0 [Customer 10]: receives Withdraw
+Teller 0: going to manager for Customer 10
+Teller 0: interacting with manager
+Teller 2: done with safe
+Teller 2 [Customer 35]: transaction complete
+Customer 35: transaction complete, leaving
+Customer 49: enters the bank
+Customer 49 [Teller 2]: selects teller
+Teller 1: calls Customer 49
+Customer 49: introduces self to Teller
+Customer 49: tells teller to Withdraw
+Teller 1 [Customer 49]: receives Withdraw
+Teller 1: going to manager for Customer 49
+Teller 0: done with manager
+Teller 0: going to safe for Customer 10
+Teller 0: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 49
+Teller 1: using safe
+Teller 0: done with safe
+Teller 0 [Customer 10]: transaction complete
+Customer 10: transaction complete, leaving
+Customer 17: enters the bank
+Customer 17 [Teller 2]: selects teller
+Teller 2: calls Customer 17
+Customer 17: introduces self to Teller
+Customer 17: tells teller to Deposit
+Teller 2 [Customer 17]: receives Deposit
+Teller 2: going to safe for Customer 17
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 49]: transaction complete
+Customer 49: transaction complete, leaving
+Customer 47: enters the bank
+Customer 47 [Teller 2]: selects teller
+Teller 0: calls Customer 47
+Customer 47: introduces self to Teller
+Customer 47: tells teller to Withdraw
+Teller 0 [Customer 47]: receives Withdraw
+Teller 0: going to manager for Customer 47
+Teller 0: interacting with manager
+Teller 2: done with safe
+Teller 2 [Customer 17]: transaction complete
+Customer 17: transaction complete, leaving
+Customer 19: enters the bank
+Customer 19 [Teller 2]: selects teller
+Teller 1: calls Customer 19
+Customer 19: introduces self to Teller
+Customer 19: tells teller to Withdraw
+Teller 1 [Customer 19]: receives Withdraw
+Teller 1: going to manager for Customer 19
+Teller 0: done with manager
+Teller 0: going to safe for Customer 47
+Teller 0: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 19
+Teller 1: using safe
+Teller 0: done with safe
+Teller 0 [Customer 47]: transaction complete
+Customer 47: transaction complete, leaving
+Customer 29: enters the bank
+Customer 29 [Teller 2]: selects teller
+Teller 2: calls Customer 29
+Teller 1: done with safe
+Teller 1 [Customer 19]: transaction complete
+Customer 29: introduces self to Teller
+Customer 29: tells teller to Withdraw
+Teller 2 [Customer 29]: receives Withdraw
+Teller 2: going to manager for Customer 29
+Teller 2: interacting with manager
+Customer 19: transaction complete, leaving
+Customer 36: enters the bank
+Customer 36 [Teller 1]: selects teller
+Teller 1: calls Customer 36
+Customer 36: introduces self to Teller
+Customer 36: tells teller to Withdraw
+Teller 1 [Customer 36]: receives Withdraw
+Teller 1: going to manager for Customer 36
+Teller 2: done with manager
+Teller 2: going to safe for Customer 29
+Teller 2: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 36
+Teller 1: using safe
+Teller 2: done with safe
+Teller 2 [Customer 29]: transaction complete
+Customer 29: transaction complete, leaving
+Customer 41: enters the bank
+Customer 41 [Teller 1]: selects teller
+Teller 0: calls Customer 41
+Customer 41: introduces self to Teller
+Customer 41: tells teller to Withdraw
+Teller 0 [Customer 41]: receives Withdraw
+Teller 0: going to manager for Customer 41
+Teller 0: interacting with manager
+Teller 0: done with manager
+Teller 0: going to safe for Customer 41
+Teller 0: using safe
+Teller 1: done with safe
+Teller 1 [Customer 36]: transaction complete
+Customer 36: transaction complete, leaving
+Customer 26: enters the bank
+Customer 26 [Teller 1]: selects teller
+Teller 2: calls Customer 26
+Customer 26: introduces self to Teller
+Customer 26: tells teller to Deposit
+Teller 2 [Customer 26]: receives Deposit
+Teller 2: going to safe for Customer 26
+Teller 2: using safe
+Teller 0: done with safe
+Teller 0 [Customer 41]: transaction complete
+Customer 41: transaction complete, leaving
+Customer 25: enters the bank
+Customer 25 [Teller 1]: selects teller
+Teller 2: done with safe
+Teller 2 [Customer 26]: transaction complete
+Customer 26: transaction complete, leaving
+Teller 2: calls Customer 25
+Customer 25: introduces self to Teller
+Customer 25: tells teller to Withdraw
+Teller 2 [Customer 25]: receives Withdraw
+Teller 2: going to manager for Customer 25
+Teller 2: interacting with manager
+Customer 9: enters the bank
+Customer 9 [Teller 0]: selects teller
+Teller 1: calls Customer 9
+Customer 9: introduces self to Teller
+Customer 9: tells teller to Withdraw
+Teller 1 [Customer 9]: receives Withdraw
+Teller 1: going to manager for Customer 9
+Teller 2: done with manager
+Teller 2: going to safe for Customer 25
+Teller 2: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 9
+Teller 1: using safe
+Teller 1: done with safe
+Teller 1 [Customer 9]: transaction complete
+Customer 9: transaction complete, leaving
+Customer 14: enters the bank
+Customer 14 [Teller 0]: selects teller
+Teller 2: done with safe
+Teller 2 [Customer 25]: transaction complete
+Customer 25: transaction complete, leaving
+Teller 2: calls Customer 14
+Customer 14: introduces self to Teller
+Customer 14: tells teller to Withdraw
+Teller 2 [Customer 14]: receives Withdraw
+Teller 2: going to manager for Customer 14
+Teller 2: interacting with manager
+Customer 15: enters the bank
+Customer 15 [Teller 2]: selects teller
+Teller 0: calls Customer 15
+Customer 15: introduces self to Teller
+Customer 15: tells teller to Withdraw
+Teller 0 [Customer 15]: receives Withdraw
+Teller 0: going to manager for Customer 15
+Teller 2: done with manager
+Teller 2: going to safe for Customer 14
+Teller 2: using safe
+Teller 0: interacting with manager
+Teller 0: done with manager
+Teller 0: going to safe for Customer 15
+Teller 0: using safe
+Teller 2: done with safe
+Teller 2 [Customer 14]: transaction complete
+Customer 14: transaction complete, leaving
+Customer 8: enters the bank
+Customer 8 [Teller 2]: selects teller
+Teller 1: calls Customer 8
+Customer 8: introduces self to Teller
+Customer 8: tells teller to Withdraw
+Teller 1 [Customer 8]: receives Withdraw
+Teller 1: going to manager for Customer 8
+Teller 1: interacting with manager
+Teller 0: done with safe
+Teller 0 [Customer 15]: transaction complete
+Customer 15: transaction complete, leaving
+Customer 2: enters the bank
+Customer 2 [Teller 2]: selects teller
+Teller 1: done with manager
+Teller 1: going to safe for Customer 8
+Teller 1: using safe
+Teller 2: calls Customer 2
+Customer 2: introduces self to Teller
+Customer 2: tells teller to Withdraw
+Teller 2 [Customer 2]: receives Withdraw
+Teller 2: going to manager for Customer 2
+Teller 2: interacting with manager
+Teller 2: done with manager
+Teller 2: going to safe for Customer 2
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 8]: transaction complete
+Customer 8: transaction complete, leaving
+Customer 5: enters the bank
+Customer 5 [Teller 2]: selects teller
+Teller 1: calls Customer 5
+Customer 5: introduces self to Teller
+Customer 5: tells teller to Withdraw
+Teller 1 [Customer 5]: receives Withdraw
+Teller 1: going to manager for Customer 5
+Teller 1: interacting with manager
+Teller 2: done with safe
+Teller 2 [Customer 2]: transaction complete
+Customer 2: transaction complete, leaving
+Customer 0: enters the bank
+Customer 0 [Teller 1]: selects teller
+Teller 0: calls Customer 0
+Customer 0: introduces self to Teller
+Customer 0: tells teller to Withdraw
+Teller 0 [Customer 0]: receives Withdraw
+Teller 0: going to manager for Customer 0
+Teller 1: done with manager
+Teller 1: going to safe for Customer 5
+Teller 1: using safe
+Teller 0: interacting with manager
+Teller 0: done with manager
+Teller 0: going to safe for Customer 0
+Teller 0: using safe
+Teller 1: done with safe
+Teller 1 [Customer 5]: transaction complete
+Customer 5: transaction complete, leaving
+Customer 22: enters the bank
+Customer 22 [Teller 1]: selects teller
+Teller 2: calls Customer 22
+Customer 22: introduces self to Teller
+Customer 22: tells teller to Deposit
+Teller 2 [Customer 22]: receives Deposit
+Teller 2: going to safe for Customer 22
+Teller 2: using safe
+Teller 2: done with safe
+Teller 2 [Customer 22]: transaction complete
+Customer 22: transaction complete, leaving
+Customer 23: enters the bank
+Customer 23 [Teller 0]: selects teller
+Teller 1: calls Customer 23
+Customer 23: introduces self to Teller
+Customer 23: tells teller to Withdraw
+Teller 1 [Customer 23]: receives Withdraw
+Teller 1: going to manager for Customer 23
+Teller 1: interacting with manager
+Teller 0: done with safe
+Teller 0 [Customer 0]: transaction complete
+Customer 0: transaction complete, leaving
+Customer 21: enters the bank
+Customer 21 [Teller 0]: selects teller
+Teller 1: done with manager
+Teller 1: going to safe for Customer 23
+Teller 1: using safe
+Teller 2: calls Customer 21
+Customer 21: introduces self to Teller
+Customer 21: tells teller to Withdraw
+Teller 2 [Customer 21]: receives Withdraw
+Teller 2: going to manager for Customer 21
+Teller 2: interacting with manager
+Teller 1: done with safe
+Teller 1 [Customer 23]: transaction complete
+Customer 23: transaction complete, leaving
+Customer 32: enters the bank
+Customer 32 [Teller 0]: selects teller
+Teller 0: calls Customer 32
+Customer 32: introduces self to Teller
+Customer 32: tells teller to Withdraw
+Teller 0 [Customer 32]: receives Withdraw
+Teller 0: going to manager for Customer 32
+Teller 2: done with manager
+Teller 2: going to safe for Customer 21
+Teller 2: using safe
+Teller 0: interacting with manager
+Teller 0: done with manager
+Teller 0: going to safe for Customer 32
+Teller 0: using safe
+Teller 2: done with safe
+Teller 2 [Customer 21]: transaction complete
+Customer 21: transaction complete, leaving
+Customer 44: enters the bank
+Customer 44 [Teller 1]: selects teller
+Teller 0: done with safe
+Teller 0 [Customer 32]: transaction complete
+Customer 32: transaction complete, leaving
+Customer 45: enters the bank
+Customer 45 [Teller 2]: selects teller
+Teller 0: calls Customer 44
+Customer 44: introduces self to Teller
+Customer 44: tells teller to Deposit
+Teller 0 [Customer 44]: receives Deposit
+Teller 0: going to safe for Customer 44
+Teller 0: using safe
+Teller 1: calls Customer 45
+Customer 45: introduces self to Teller
+Customer 45: tells teller to Withdraw
+Teller 1 [Customer 45]: receives Withdraw
+Teller 1: going to manager for Customer 45
+Teller 1: interacting with manager
+Teller 0: done with safe
+Teller 0 [Customer 44]: transaction complete
+Customer 44: transaction complete, leaving
+Customer 33: enters the bank
+Customer 33 [Teller 2]: selects teller
+Teller 2: calls Customer 33
+Customer 33: introduces self to Teller
+Customer 33: tells teller to Deposit
+Teller 2 [Customer 33]: receives Deposit
+Teller 2: going to safe for Customer 33
+Teller 2: using safe
+Teller 1: done with manager
+Teller 1: going to safe for Customer 45
+Teller 1: using safe
+Teller 1: done with safe
+Teller 1 [Customer 45]: transaction complete
+Customer 45: transaction complete, leaving
+Customer 34: enters the bank
+Customer 34 [Teller 2]: selects teller
+Teller 0: calls Customer 34
+Customer 34: introduces self to Teller
+Customer 34: tells teller to Deposit
+Teller 0 [Customer 34]: receives Deposit
+Teller 0: going to safe for Customer 34
+Teller 0: using safe
+Teller 2: done with safe
+Teller 2 [Customer 33]: transaction complete
+Customer 33: transaction complete, leaving
+Customer 31: enters the bank
+Customer 31 [Teller 0]: selects teller
+Teller 2: calls Customer 31
+Customer 31: introduces self to Teller
+Customer 31: tells teller to Withdraw
+Teller 2 [Customer 31]: receives Withdraw
+Teller 2: going to manager for Customer 31
+Teller 2: interacting with manager
+Teller 2: done with manager
+Teller 2: going to safe for Customer 31
+Teller 2: using safe
+Teller 2: done with safe
+Teller 2 [Customer 31]: transaction complete
+Customer 31: transaction complete, leaving
+Customer 18: enters the bank
+Customer 18 [Teller 0]: selects teller
+Teller 1: calls Customer 18
+Customer 18: introduces self to Teller
+Customer 18: tells teller to Deposit
+Teller 1 [Customer 18]: receives Deposit
+Teller 1: going to safe for Customer 18
+Teller 1: using safe
+Teller 0: done with safe
+Teller 0 [Customer 34]: transaction complete
+Customer 34: transaction complete, leaving
+Customer 11: enters the bank
+Customer 11 [Teller 1]: selects teller
+Teller 2: calls Customer 11
+Customer 11: introduces self to Teller
+Customer 11: tells teller to Deposit
+Teller 2 [Customer 11]: receives Deposit
+Teller 2: going to safe for Customer 11
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 18]: transaction complete
+Customer 18: transaction complete, leaving
+Customer 46: enters the bank
+Customer 46 [Teller 2]: selects teller
+Teller 0: calls Customer 46
+Customer 46: introduces self to Teller
+Customer 46: tells teller to Deposit
+Teller 0 [Customer 46]: receives Deposit
+Teller 0: going to safe for Customer 46
+Teller 0: using safe
+Teller 2: done with safe
+Teller 2 [Customer 11]: transaction complete
+Customer 11: transaction complete, leaving
+Customer 27: enters the bank
+Customer 27 [Teller 2]: selects teller
+Teller 1: calls Customer 27
+Customer 27: introduces self to Teller
+Customer 27: tells teller to Deposit
+Teller 1 [Customer 27]: receives Deposit
+Teller 1: going to safe for Customer 27
+Teller 1: using safe
+Teller 1: done with safe
+Teller 1 [Customer 27]: transaction complete
+Customer 27: transaction complete, leaving
+Customer 40: enters the bank
+Customer 40 [Teller 2]: selects teller
+Teller 0: done with safe
+Teller 0 [Customer 46]: transaction complete
+Customer 46: transaction complete, leaving
+Teller 0: calls Customer 40
+Customer 40: introduces self to Teller
+Customer 40: tells teller to Withdraw
+Customer 37: enters the bank
+Customer 37 [Teller 2]: selects teller
+Teller 0 [Customer 40]: receives Withdraw
+Teller 0: going to manager for Customer 40
+Teller 0: interacting with manager
+Teller 2: calls Customer 37
+Customer 37: introduces self to Teller
+Customer 37: tells teller to Deposit
+Teller 2 [Customer 37]: receives Deposit
+Teller 2: going to safe for Customer 37
+Teller 2: using safe
+Teller 2: done with safe
+Teller 2 [Customer 37]: transaction complete
+Customer 37: transaction complete, leaving
+Customer 6: enters the bank
+Customer 6 [Teller 2]: selects teller
+Teller 1: calls Customer 6
+Customer 6: introduces self to Teller
+Customer 6: tells teller to Withdraw
+Teller 1 [Customer 6]: receives Withdraw
+Teller 1: going to manager for Customer 6
+Teller 0: done with manager
+Teller 0: going to safe for Customer 40
+Teller 0: using safe
+Teller 1: interacting with manager
+Teller 1: done with manager
+Teller 1: going to safe for Customer 6
+Teller 1: using safe
+Teller 0: done with safe
+Teller 0 [Customer 40]: transaction complete
+Customer 40: transaction complete, leaving
+Customer 4: enters the bank
+Customer 4 [Teller 0]: selects teller
+Teller 2: calls Customer 4
+Customer 4: introduces self to Teller
+Customer 4: tells teller to Withdraw
+Teller 2 [Customer 4]: receives Withdraw
+Teller 2: going to manager for Customer 4
+Teller 2: interacting with manager
+Teller 2: done with manager
+Teller 2: going to safe for Customer 4
+Teller 2: using safe
+Teller 1: done with safe
+Teller 1 [Customer 6]: transaction complete
+Customer 6: transaction complete, leaving
+Teller 2: done with safe
+Teller 2 [Customer 4]: transaction complete
+Customer 4: transaction complete, leaving
+Teller 2: finished for the day
+Teller 1: finished for the day
+Teller 0: finished for the day
+
+Bank closed. All customers served.
