@@ -5,7 +5,6 @@ import time
 #constants
 NUM_TELLERS = 3
 NUM_CUSTOMERS = 50
-
 #semaphores and the locks
 bank_open = threading.Event()
 door_sem = threading.Semaphore(2)
