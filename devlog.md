@@ -3,7 +3,7 @@
 ## [04/13/2025] 10:14 AM
 - Read through the full PDF spec from eLearning
 - Identified major components: 3 Teller threads, 50 Customer threads
-- Recognized critical shared resources: bank door (2 customers), safe (2 tellers), manager (1 teller)
+- Recognized critical shared resources: bank door (2 custommers), safe (2 tellers), manager (1 teller)
 - Decided to use Python with the `threading` module and `Semaphore` for synchronization
 
 ## [04/13/2025] 12:33 PM
