@@ -33,7 +33,7 @@ sahas-os-project2/
 - Captures a full run of the simulation.
 - Demonstrates correct synchronization and thread interaction output.
 
-## Getting Started
+## getting it started
 
 1. Ensure Python 3.7 or newer is installed.
 2. Open a terminal and navigate to the project folder.
@@ -48,12 +48,12 @@ You can redirect output to a file with:
 python3 bank_simulation.py > sample_output.txt
 ```
 
-## Output Format
+## output Format
 Each action follows the format:
 ```
 THREAD_TYPE ID [OTHER_THREAD_TYPE ID]: MESSAGE
 ```
-Example:
+example:
 ```
 Customer 5 [Teller 1]: selects teller
 Teller 1: going to manager for Customer 5
@@ -61,13 +61,7 @@ Teller 1: done with manager
 Teller 1: going to safe
 ```
 
-## Additional Notes
+## Additional notes
 - Implements robust semaphore-based synchronization with clean exit logic.
 - Prevents deadlocks and ensures all 50 customers are served before tellers exit.
 - Demonstrates real-world operating systems concepts in a multithreaded Python environment.
-
----
-**Author**: Sahas Sharma  
-**Course**: CS4348 Operating Systems Concepts  
-**Semester**: Spring 2024
-
