@@ -6,9 +6,9 @@ This project simulates a simplified banking environment using Python threads and
 
 ```
 sahas-os-project2/
-├── bank_simulation.py  # Main Python script for the simulation
-├── devlog.md           # Development log with implementation notes
-├── README.md           # This file
+├── bank_simulation.py  # main python script for the simulation
+├── devlog.md           # development log with implementation notes
+├── README.md           # this file
 └── output.txt   
 ```
 
@@ -18,15 +18,15 @@ sahas-os-project2/
 - Launches 3 **Teller** threads and 50 **Customer** threads.
 - Synchronizes access to:
   - **Manager**: only 1 teller may interact at a time.
-  - **Safe**: only 2 tellers may enter at a time.
+  - **Safe**: only 2 tellers may enter at a time
   - **Bank Door**: only 2 customers may enter simultaneously.
-- Each customer selects either **Deposit** or **Withdraw** randomly.
-- Tellers interact with the manager for withdrawals, then enter the safe to process all transactions.
-- Thread-safe logging prints every step of the simulation in the required format.
+- Each customer selects either **Deposit** or **Withdraw** randomly
+- Tellers interact with the manager for withdrawals, then enter the safe to process all transctions
+- Thread-safe logging prints every step of the simlation in the required format.
 
 ### `devlog.md`
 - Tracks the project’s development from initial setup to final debugging.
-- Lists all design choices, bugs encountered, and their solutions.
+- Lists all dsign choices, bugs encountered, and their solutions.
 - Contains a summary of what works and what could be improved.
 
 ### `sample_output.txt`
@@ -35,8 +35,8 @@ sahas-os-project2/
 
 ## getting it started
 
-1. Ensure Python 3.7 or newer is installed.
-2. Open a terminal and navigate to the project folder.
+1. Ensure using Python 3.7 or newer is installed.
+2. Open a terminal and navgate to the project folder.
 3. Run the simulation with:
 
 ```bash
@@ -62,6 +62,6 @@ Teller 1: going to safe
 ```
 
 ## Additional notes
-- Implements robust semaphore-based synchronization with clean exit logic.
-- Prevents deadlocks and ensures all 50 customers are served before tellers exit.
+- Implements robust semaphore-based synchronization with clean exit logic
+- Prevents deadlock and ensure all 50 customers are served before tellers exit
 - Demonstrates real-world operating systems concepts in a multithreaded Python environment.
