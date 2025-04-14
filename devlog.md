@@ -1,56 +1,52 @@
-# Project 2 Dev Log – CS4348 Spring 2024
+# Dev Log – CS4348 Project 2 Sahas Sharma SXS210541
 
-## Timeline
+## [04/13/2025] 10:14 AM
+- Read through the full PDF spec from eLearning
+- Identified major components: 3 Teller threads, 50 Customer threads
+- Recognized critical shared resources: bank door (2 customers), safe (2 tellers), manager (1 teller)
+- Decided to use Python with the `threading` module and `Semaphore` for synchronization
 
-### April 10, 2024 – Made GitHub repo
-- Read the full project description from `project2.pdf`.
-- Identified major thread entities: 3 tellers, 50 customers.
-- Noted synchronization requirements: manager (1), safe (2), door (2), and communication between each customer-teller pair.
-- Chose Python for implementation (using `threading` and `Semaphore`).
+## [04/13/2025] 12:33 PM
+### Planning Notes
+- Broke the simulation into 2 main classes: `Teller` and `Customer`
+- Mapped out inter-thread communcation using per customer semphores
+- Brainstormed structure of logging and sequencing actions per spec
 
-### April 11, 2024 – First Implementation
-- Created thread classes: `Teller` and `Customer`.
-- Set up initial semaphores:
-  - `manager_sem`, `safe_sem`, `door_sem`.
-  - Per-customer semaphores for `customer_ready`, `teller_ready`, `transaction_done`, and `customer_left`.
-- Introduced global `transaction_map` for transaction type lookup.
-- Tellers immediately exited due to incorrect termination condition based on `customer_queue`.
+## [04/13/2025] 1:15 PM (session 1 begins)
+- created skeleton for `Teller` and `Customer` thread classes
+- added global structures: `transaction_map`, semaphres, locks, and queue logic
+- implemented customer thread: random transaction type, entrance wait, teller selection
 
-### April 12, 2024 – Debugging & Finalizing
-- Fixed teller exit logic by adding:
-  - `customers_served` counter
-  - `customers_served_lock`
-  - `done_event` to gracefully terminate tellers after serving 50 customers
-- Added realistic `time.sleep()` to simulate manager and safe interactions
-- Verified console logs matched format: `THREAD_TYPE ID [OTHER_THREAD_TYPE ID]: MESSAGE`
-- Ran full simulation — verified all threads completed and simulation terminated with: `Bank closed. All customers served.`
+## [04/13/2025] 3:30 PM (session 1 ends)
+- customers could enter and select tellers, but tellers were terminating immediately
+- realized early exit condition was incorrect — tellers needed a better way to wait for customers
 
-## Key Design Decisions
+## [04/13/2025] 4:50 PM (session 2 begins)
+- remade teller loop to wait for all 50 custmers to finish using a shared `customers_served` counter
+- introduced `done_event` to cleanly terminate all teller threads after simulation
+- Wrapped queue access and teller assignment in appropriate locks
 
-### semaphore Use:
-- **Manager**: `Semaphore(1)` — only one teller at a time.
-- **Safe**: `Semaphore(2)` — max two tellers inside.
-- **Bank Door**: `Semaphore(2)` — max two customers enter at a time.
-- **Customer-Teller Sync**: 4 semaphores per customer thread to handle: greeting, transaction exchange, completion, and leaving.
+## [04/13/2025] 6:00 PM (session 2 ends)
+- Teller now waits properly, interacts with manager and safe with correct logging and delay
+- confirmed output meets requred format: `THREAD_TYPE ID [THREAD_TYPE ID]: MSG`
+- All shared resources now log three lines: going to, using, done using
 
-### synchronization Mechanisms:
-- Used `queue_lock` to protect shared customer queue.
-- Used `available_tellers_lock` for managing idle teller pool.
-- Avoided deadlocks using simple conditional waits and retry logic (via small `sleep`).
+## [04/13/2025] 7:30 PM (session 3 begins)
+- tested full simulation with 50 customers
+- output validated for: entry/exit control, transaction sequncing, correct thread sync
+- All edge cases handled (e.g., customers waiting, tellers sharing safe/manager access)
 
-## what has worked
-- Thread-safe interaction between 3 tellers and 50 customers
-- Manager and safe access rules enforced
-- Every customer completes exactly one transaction
-- Terminal output clearly tracks all actions
+## [04/13/2025] 9:15 PM (session 3 ends)
+- created `README.md` with full project instructions and structure
+- finished timestamped `devlog.md` file
 
-## some limiations
-- Does not simulate bank opening delay (tellers are ready immediately)
-- Customers may wait longer than needed if not perfectly balanced across tellers
-- No queue priority or advanced fairness logic
+## [04/13/2025] 10:51 PM (session 4 begins)
+- final cleanup pass before submission
+- verufy the semaphores prevent race condtions
+- output reviewed and sample run redirected to `output.txt`
 
-## what I learnt
-- Practical semaphore-based synchronization in Python
-- Real-time debugging of thread coordination issues
-- Importance of separating customer-teller pairs with unique semaphores
-- Dealing with early thread exits and graceful termination using global counters
+## [04/13/2025] 11:40 PM (session 4 ends)
+- All deliverables ready: `bank_simulation.py`, `README.md`, `devlog.md`, `sample_output.txt`
+- code is submission ready and passes all logical checks
+- Submitted right on time 
+
